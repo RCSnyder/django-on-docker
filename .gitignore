@@ -4,3 +4,29 @@ __pycache
 .env.dev
 .env.prod
 .env.prod.db
+
+django_env/
+db.sqlite3
+
+*.log
+*.pot
+*.pyc
+__pycache
+db.sqlite3
+
+# Backup files # 
+*.bak 
+
+# pyenv 
+.python-version
+
+# mypy 
+.mypy_cache/
+
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
